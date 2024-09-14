@@ -1,0 +1,39 @@
+.events-page {
+    padding: 20px;
+  }
+  
+  .cities-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .city-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .popular-events {
+    margin-top: 40px;
+  }
+  
+  .events-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
