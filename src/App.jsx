@@ -1,12 +1,24 @@
 import { useState } from 'react'
 import './App.css'
-import EventsPage from './EventsPage'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css'; 
+import Home from './public/home.jsx';
+import Login from './public/login.jsx';
+import Signup from './public/signup.jsx';
+import {Category} from './public/category.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <EventsPage/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login/>}></Route>
+        <Route path='/signup' element={<Signup/>}></Route>
+        <Route path='/category' element={<Category/>}></Route>
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }

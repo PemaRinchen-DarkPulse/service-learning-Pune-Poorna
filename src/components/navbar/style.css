@@ -1,0 +1,38 @@
+/* Ensuring full-width coverage */
+#nav {
+  width: 100%; /* Ensure the nav takes up the full width */
+  position: relative; /* Position relative for potential z-index stacking */
+}
+
+/* Search Input Styling */
+.search-input {
+  border-radius: 20px; /* Rounded corners for the search input */
+  padding: 10px; /* Increased padding for a more spacious look */
+  background-color: #333; /* Darker background for the search input */
+  border: 1px solid #444; /* Slightly lighter border color */
+  color: white; /* White text color for input */
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  background-color: #1a1a1a; /* Darker background for the dropdown */
+  border: 1px solid #333; /* Slightly lighter border color */
+}
+
+/* Dropdown Items */
+.dropdown-menu .dropdown-item {
+  color: white; /* White text color */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #444; /* Darker background on hover */
+}
+
+/* Button Link Styling */
+.button-link {
+  color: white !important; /* Ensure link text color is white */
+}
+
+.button-link:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
