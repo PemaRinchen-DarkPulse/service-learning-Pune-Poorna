@@ -16,7 +16,7 @@ export function NavComponent() {
         <h3 className="mb-0">Pune Poorna</h3>
         <input type="text" className="form-control w-25 search-input" placeholder="Search..." />
         <EventList />
-        <Button color="primary" className="mr-2">Create Events</Button>
+        <Button color="primary" className="mr-2"><Link to={"/create"}>Create Events</Link></Button>
         <Button color="secondary">
           <Link to="/login" className='text-dark'>Login</Link> / <Link to="/signup" className='text-dark'>Signup</Link>
         </Button>

@@ -6,6 +6,7 @@ import Home from './public/home.jsx';
 import Login from './public/login.jsx';
 import Signup from './public/signup.jsx';
 import {Category} from './public/category.jsx'
+import { EventsCreateion } from './public/eventsCreateion.jsx';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +18,8 @@ function App() {
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/signup' element={<Signup/>}></Route>
         <Route path='/category' element={<Category/>}></Route>
+        <Route path='/create' element={<EventsCreateion/>}></Route>
+
       </Routes>
     </BrowserRouter>
     </>
