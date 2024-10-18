@@ -3,8 +3,13 @@ import { Form, FormGroup, Label, Input, FormText, Button } from 'reactstrap';
 
 export const CreateEvents = () => {
   return (
-    <h1>
-      Event form
-    </h1>
+    <>
+      <div className="sider-bar">
+        side bar
+      </div>
+      <div className="form">
+        form
+      </div>
+    </>
   );
 };
