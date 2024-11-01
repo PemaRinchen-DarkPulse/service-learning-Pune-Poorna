@@ -19,7 +19,6 @@ function App() {
         <Route path='/signup' element={<Signup/>}></Route>
         <Route path='/category' element={<Category/>}></Route>
         <Route path='/create' element={<EventsCreateion/>}></Route>
-
       </Routes>
     </BrowserRouter>
     </>

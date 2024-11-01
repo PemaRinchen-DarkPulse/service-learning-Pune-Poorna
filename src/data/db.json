@@ -1,0 +1,2651 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "title": "Pune Hill Half Marathon",
+        "date": "Sep 15",
+        "location": "Pune",
+        "price": "Free",
+        "image": "/assets/images/marathon.webp",
+        "type": "marathon"
+      },
+      {
+        "id": 2,
+        "title": "Cycling Event in Pune",
+        "date": "Oct 12",
+        "location": "Pune",
+        "price": "₹499",
+        "image": "/assets/images/event2.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 3,
+        "title": "Virtual Sports Meet",
+        "date": "Nov 05",
+        "location": "Online",
+        "price": "₹299",
+        "image": "/assets/images/event3.jpg",
+        "type": "virtual"
+      },
+      {
+        "id": 4,
+        "title": "New York City Marathon",
+        "date": "Nov 03",
+        "location": "New York",
+        "price": "$255",
+        "image": "/assets/images/marathon1.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 5,
+        "title": "Boston Marathon",
+        "date": "Apr 15",
+        "location": "Boston",
+        "price": "$200",
+        "image": "/assets/images/marathon2.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 6,
+        "title": "Chicago Marathon",
+        "date": "Oct 13",
+        "location": "Chicago",
+        "price": "$220",
+        "image": "/assets/images/marathon3.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 7,
+        "title": "London Marathon",
+        "date": "Apr 28",
+        "location": "London",
+        "price": "$300",
+        "image": "/assets/images/marathon4.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 8,
+        "title": "Tokyo Marathon",
+        "date": "Mar 03",
+        "location": "Tokyo",
+        "price": "$150",
+        "image": "/assets/images/marathon5.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 9,
+        "title": "Berlin Marathon",
+        "date": "Sep 29",
+        "location": "Berlin",
+        "price": "$200",
+        "image": "/assets/images/marathon6.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 10,
+        "title": "Amsterdam Marathon",
+        "date": "Oct 20",
+        "location": "Amsterdam",
+        "price": "$175",
+        "image": "/assets/images/marathon7.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 11,
+        "title": "Honolulu Marathon",
+        "date": "Dec 08",
+        "location": "Hawaii",
+        "price": "$150",
+        "image": "/assets/images/marathon8.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 12,
+        "title": "Los Angeles Marathon",
+        "date": "Mar 17",
+        "location": "Los Angeles",
+        "price": "$190",
+        "image": "/assets/images/marathon9.jpg",
+        "type": "marathon"
+      },
+      {
+        "id": 13,
+        "title": "Paris Marathon",
+        "date": "Apr 14",
+        "location": "Paris",
+        "price": "$130",
+        "image": "/assets/images/marathon10.jpg",
+        "type": "marathon"
+      },
+  
+      {
+        "id": 14,
+        "title": "Virtual 5K Run",
+        "date": "Dec 01",
+        "location": "Online",
+        "price": "$25",
+        "image": "/assets/images/virtual1.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 15,
+        "title": "Online Yoga Challenge",
+        "date": "Jan 10",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/virtual2.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 16,
+        "title": "Virtual Triathlon",
+        "date": "Feb 20",
+        "location": "Online",
+        "price": "$50",
+        "image": "/assets/images/virtual3.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 17,
+        "title": "Online Fitness Bootcamp",
+        "date": "Mar 15",
+        "location": "Online",
+        "price": "$60",
+        "image": "/assets/images/virtual4.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 18,
+        "title": "Remote Dance Fitness",
+        "date": "Apr 01",
+        "location": "Online",
+        "price": "$40",
+        "image": "/assets/images/virtual5.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 19,
+        "title": "Virtual Cycling Challenge",
+        "date": "May 10",
+        "location": "Online",
+        "price": "$30",
+        "image": "/assets/images/virtual6.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 20,
+        "title": "Online Running Club",
+        "date": "Jun 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/virtual7.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 21,
+        "title": "Online Zumba Class",
+        "date": "Jul 20",
+        "location": "Online",
+        "price": "$20",
+        "image": "/assets/images/virtual8.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 22,
+        "title": "Virtual Hiking Challenge",
+        "date": "Aug 15",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/virtual9.jpg",
+        "type": "virtual-sports"
+      },
+      {
+        "id": 23,
+        "title": "Online Sports Quiz",
+        "date": "Sep 05",
+        "location": "Online",
+        "price": "$10",
+        "image": "/assets/images/virtual10.jpg",
+        "type": "virtual-sports"
+      },
+  
+      {
+        "id": 24,
+        "title": "Entrepreneurship Workshop",
+        "date": "Jan 15",
+        "location": "Online",
+        "price": "$50",
+        "image": "/assets/images/business1.jpg",
+        "type": "business"
+      },
+      {
+        "id": 25,
+        "title": "Networking for Entrepreneurs",
+        "date": "Feb 25",
+        "location": "New York",
+        "price": "$75",
+        "image": "/assets/images/business2.jpg",
+        "type": "business"
+      },
+      {
+        "id": 26,
+        "title": "Marketing Strategies for Startups",
+        "date": "Mar 10",
+        "location": "San Francisco",
+        "price": "$100",
+        "image": "/assets/images/business3.jpg",
+        "type": "business"
+      },
+      {
+        "id": 27,
+        "title": "Leadership Skills Training",
+        "date": "Apr 20",
+        "location": "Chicago",
+        "price": "$80",
+        "image": "/assets/images/business4.jpg",
+        "type": "business"
+      },
+      {
+        "id": 28,
+        "title": "Financial Planning Seminar",
+        "date": "May 15",
+        "location": "Online",
+        "price": "$60",
+        "image": "/assets/images/business5.jpg",
+        "type": "business"
+      },
+      {
+        "id": 29,
+        "title": "Tech Innovations Summit",
+        "date": "Jun 10",
+        "location": "Boston",
+        "price": "$120",
+        "image": "/assets/images/business6.jpg",
+        "type": "business"
+      },
+      {
+        "id": 30,
+        "title": "Effective Communication Workshop",
+        "date": "Jul 25",
+        "location": "Los Angeles",
+        "price": "$40",
+        "image": "/assets/images/business7.jpg",
+        "type": "business"
+      },
+      {
+        "id": 31,
+        "title": "Time Management Strategies",
+        "date": "Aug 30",
+        "location": "Online",
+        "price": "$30",
+        "image": "/assets/images/business8.jpg",
+        "type": "business"
+      },
+      {
+        "id": 32,
+        "title": "Startup Funding Workshop",
+        "date": "Sep 15",
+        "location": "San Francisco",
+        "price": "$100",
+        "image": "/assets/images/business9.jpg",
+        "type": "business"
+      },
+      {
+        "id": 33,
+        "title": "Business Growth Conference",
+        "date": "Oct 05",
+        "location": "New York",
+        "price": "$200",
+        "image": "/assets/images/business10.jpg",
+        "type": "business"
+      },
+  
+      {
+        "id": 34,
+        "title": "Historical City Tour",
+        "date": "Nov 10",
+        "location": "Philadelphia",
+        "price": "$75",
+        "image": "/assets/images/tour1.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 35,
+        "title": "Wine Tasting Tour",
+        "date": "Dec 05",
+        "location": "Napa Valley",
+        "price": "$100",
+        "image": "/assets/images/tour2.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 36,
+        "title": "Cultural Heritage Tour",
+        "date": "Jan 20",
+        "location": "New Orleans",
+        "price": "$90",
+        "image": "/assets/images/tour3.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 37,
+        "title": "Mountain Hiking Tour",
+        "date": "Feb 15",
+        "location": "Colorado",
+        "price": "$120",
+        "image": "/assets/images/tour4.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 38,
+        "title": "Beach Resort Tour",
+        "date": "Mar 30",
+        "location": "Florida",
+        "price": "$200",
+        "image": "/assets/images/tour5.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 39,
+        "title": "Safari Adventure Tour",
+        "date": "Apr 25",
+        "location": "Kenya",
+        "price": "$350",
+        "image": "/assets/images/tour6.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 40,
+        "title": "Art and Architecture Tour",
+        "date": "May 10",
+        "location": "Barcelona",
+        "price": "$150",
+        "image": "/assets/images/tour7.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 41,
+        "title": "Food and Culinary Tour",
+        "date": "Jun 15",
+        "location": "Italy",
+        "price": "$180",
+        "image": "/assets/images/tour8.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 42,
+        "title": "Wildlife Photography Tour",
+        "date": "Jul 20",
+        "location": "Tanzania",
+        "price": "$300",
+        "image": "/assets/images/tour9.jpg",
+        "type": "tours"
+      },
+      {
+        "id": 43,
+        "title": "City Night Tour",
+        "date": "Aug 25",
+        "location": "Paris",
+        "price": "$70",
+        "image": "/assets/images/tour10.jpg",
+        "type": "tours"
+      },
+
+      {
+        "id": 44,
+        "title": "30-Day Fitness Challenge",
+        "date": "Jan 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge1.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 45,
+        "title": "Reading Challenge 2024",
+        "date": "Feb 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge2.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 46,
+        "title": "Meditation Challenge",
+        "date": "Mar 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge3.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 47,
+        "title": "Photography Challenge",
+        "date": "Apr 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge4.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 48,
+        "title": "30-Day Writing Challenge",
+        "date": "May 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge5.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 49,
+        "title": "Healthy Eating Challenge",
+        "date": "Jun 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge6.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 50,
+        "title": "Fitness Tracker Challenge",
+        "date": "Jul 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge7.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 51,
+        "title": "30-Day Art Challenge",
+        "date": "Aug 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge8.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 52,
+        "title": "Gratitude Challenge",
+        "date": "Sep 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge9.jpg",
+        "type": "monthly-challenge"
+      },
+      {
+        "id": 53,
+        "title": "30-Day Mindfulness Challenge",
+        "date": "Oct 01",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/challenge10.jpg",
+        "type": "monthly-challenge"
+      },
+  
+    
+      {
+        "id": 54,
+        "title": "Mountain Biking Adventure",
+        "date": "Nov 05",
+        "location": "Colorado",
+        "price": "$80",
+        "image": "/assets/images/cycling1.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 55,
+        "title": "Urban Cycling Tour",
+        "date": "Dec 10",
+        "location": "San Francisco",
+        "price": "$50",
+        "image": "/assets/images/cycling2.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 56,
+        "title": "Cycling for Beginners",
+        "date": "Jan 15",
+        "location": "Online",
+        "price": "$25",
+        "image": "/assets/images/cycling3.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 57,
+        "title": "Cycling Marathon",
+        "date": "Feb 20",
+        "location": "Miami",
+        "price": "$100",
+        "image": "/assets/images/cycling4.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 58,
+        "title": "Night Cycling Experience",
+        "date": "Mar 25",
+        "location": "Los Angeles",
+        "price": "$45",
+        "image": "/assets/images/cycling5.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 59,
+        "title": "Cycling Safety Workshop",
+        "date": "Apr 15",
+        "location": "Chicago",
+        "price": "$35",
+        "image": "/assets/images/cycling6.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 60,
+        "title": "Cycle and Yoga Retreat",
+        "date": "May 20",
+        "location": "Sedona",
+        "price": "$150",
+        "image": "/assets/images/cycling7.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 61,
+        "title": "Bike Maintenance Workshop",
+        "date": "Jun 25",
+        "location": "Online",
+        "price": "$20",
+        "image": "/assets/images/cycling8.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 62,
+        "title": "Cycling Across America",
+        "date": "Jul 30",
+        "location": "Online",
+        "price": "$200",
+        "image": "/assets/images/cycling9.jpg",
+        "type": "cycling"
+      },
+      {
+        "id": 63,
+        "title": "Cycling and Camping Trip",
+        "date": "Aug 15",
+        "location": "Yosemite",
+        "price": "$300",
+        "image": "/assets/images/cycling10.jpg",
+        "type": "cycling"
+      },
+  
+      {
+        "id": 64,
+        "title": "Skydiving Experience",
+        "date": "Sep 10",
+        "location": "Miami",
+        "price": "$400",
+        "image": "/assets/images/adventure1.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 65,
+        "title": "Rock Climbing Expedition",
+        "date": "Oct 15",
+        "location": "Boulder",
+        "price": "$250",
+        "image": "/assets/images/adventure2.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 66,
+        "title": "White Water Rafting",
+        "date": "Nov 20",
+        "location": "Colorado River",
+        "price": "$150",
+        "image": "/assets/images/adventure3.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 67,
+        "title": "Zip Line Adventure",
+        "date": "Dec 05",
+        "location": "Hawaii",
+        "price": "$200",
+        "image": "/assets/images/adventure4.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 68,
+        "title": "Scuba Diving Course",
+        "date": "Jan 10",
+        "location": "Florida",
+        "price": "$300",
+        "image": "/assets/images/adventure5.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 69,
+        "title": "Mountain Trekking Expedition",
+        "date": "Feb 15",
+        "location": "Himalayas",
+        "price": "$400",
+        "image": "/assets/images/adventure6.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 70,
+        "title": "Caving Adventure",
+        "date": "Mar 10",
+        "location": "Kentucky",
+        "price": "$100",
+        "image": "/assets/images/adventure7.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 71,
+        "title": "Paragliding Experience",
+        "date": "Apr 20",
+        "location": "Switzerland",
+        "price": "$500",
+        "image": "/assets/images/adventure8.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 72,
+        "title": "Safari Adventure",
+        "date": "May 25",
+        "location": "Tanzania",
+        "price": "$600",
+        "image": "/assets/images/adventure9.jpg",
+        "type": "adventure"
+      },
+      {
+        "id": 73,
+        "title": "Hot Air Balloon Ride",
+        "date": "Jun 30",
+        "location": "New Mexico",
+        "price": "$350",
+        "image": "/assets/images/adventure10.jpg",
+        "type": "adventure"
+      },
+  
+
+      {
+        "id": 74,
+        "title": "Nutrition Workshop",
+        "date": "Jul 15",
+        "location": "Online",
+        "price": "$40",
+        "image": "/assets/images/health1.jpg",
+        "type": "health"
+      },
+      {
+        "id": 75,
+        "title": "Mental Health Awareness Seminar",
+        "date": "Aug 25",
+        "location": "New York",
+        "price": "Free",
+        "image": "/assets/images/health2.jpg",
+        "type": "health"
+      },
+      {
+        "id": 76,
+        "title": "Yoga Retreat",
+        "date": "Sep 10",
+        "location": "California",
+        "price": "$200",
+        "image": "/assets/images/health3.jpg",
+        "type": "health"
+      },
+      {
+        "id": 77,
+        "title": "Wellness Workshop",
+        "date": "Oct 20",
+        "location": "Online",
+        "price": "$50",
+        "image": "/assets/images/health4.jpg",
+        "type": "health"
+      },
+      {
+        "id": 78,
+        "title": "First Aid Certification Course",
+        "date": "Nov 05",
+        "location": "Chicago",
+        "price": "$60",
+        "image": "/assets/images/health5.jpg",
+        "type": "health"
+      },
+      {
+        "id": 79,
+        "title": "Fitness Bootcamp",
+        "date": "Dec 01",
+        "location": "Miami",
+        "price": "$100",
+        "image": "/assets/images/health6.jpg",
+        "type": "health"
+      },
+      {
+        "id": 80,
+        "title": "Holistic Health Retreat",
+        "date": "Jan 15",
+        "location": "Sedona",
+        "price": "$300",
+        "image": "/assets/images/health7.jpg",
+        "type": "health"
+      },
+      {
+        "id": 81,
+        "title": "Stress Management Workshop",
+        "date": "Feb 10",
+        "location": "Online",
+        "price": "$40",
+        "image": "/assets/images/health8.jpg",
+        "type": "health"
+      },
+      {
+        "id": 82,
+        "title": "Sleep Wellness Seminar",
+        "date": "Mar 20",
+        "location": "New York",
+        "price": "$50",
+        "image": "/assets/images/health9.jpg",
+        "type": "health"
+      },
+      {
+        "id": 83,
+        "title": "Health and Nutrition Fair",
+        "date": "Apr 25",
+        "location": "California",
+        "price": "Free",
+        "image": "/assets/images/health10.jpg",
+        "type": "health"
+      },
+  
+
+      {
+        "id": 84,
+        "title": "AI in Business Conference",
+        "date": "May 05",
+        "location": "Online",
+        "price": "$200",
+        "image": "/assets/images/ai1.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 85,
+        "title": "Machine Learning Workshop",
+        "date": "Jun 15",
+        "location": "San Francisco",
+        "price": "$150",
+        "image": "/assets/images/ai2.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 86,
+        "title": "AI Ethics Symposium",
+        "date": "Jul 20",
+        "location": "New York",
+        "price": "$100",
+        "image": "/assets/images/ai3.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 87,
+        "title": "Data Science Bootcamp",
+        "date": "Aug 10",
+        "location": "Los Angeles",
+        "price": "$300",
+        "image": "/assets/images/ai4.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 88,
+        "title": "Natural Language Processing Seminar",
+        "date": "Sep 25",
+        "location": "Online",
+        "price": "$75",
+        "image": "/assets/images/ai5.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 89,
+        "title": "AI for Healthcare Summit",
+        "date": "Oct 15",
+        "location": "Boston",
+        "price": "$125",
+        "image": "/assets/images/ai6.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 90,
+        "title": "Robotics Workshop",
+        "date": "Nov 30",
+        "location": "Chicago",
+        "price": "$250",
+        "image": "/assets/images/ai7.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 91,
+        "title": "AI in Education Conference",
+        "date": "Dec 20",
+        "location": "Online",
+        "price": "$100",
+        "image": "/assets/images/ai8.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 92,
+        "title": "Deep Learning Bootcamp",
+        "date": "Jan 15",
+        "location": "San Francisco",
+        "price": "$200",
+        "image": "/assets/images/ai9.jpg",
+        "type": "ai"
+      },
+      {
+        "id": 93,
+        "title": "AI for Social Good Summit",
+        "date": "Feb 05",
+        "location": "Online",
+        "price": "$80",
+        "image": "/assets/images/ai10.jpg",
+        "type": "ai"
+      },
+  
+ 
+      {
+        "id": 94,
+        "title": "Art Fair 2024",
+        "date": "Mar 15",
+        "location": "Miami",
+        "price": "$50",
+        "image": "/assets/images/art1.jpg",
+        "type": "art"
+      },
+      {
+        "id": 95,
+        "title": "Modern Art Exhibition",
+        "date": "Apr 25",
+        "location": "New York",
+        "price": "$15",
+        "image": "/assets/images/art2.jpg",
+        "type": "art"
+      },
+      {
+        "id": 96,
+        "title": "Photography Exhibition",
+        "date": "May 10",
+        "location": "Los Angeles",
+        "price": "$20",
+        "image": "/assets/images/art3.jpg",
+        "type": "art"
+      },
+      {
+        "id": 97,
+        "title": "Art Workshop for Kids",
+        "date": "Jun 01",
+        "location": "San Francisco",
+        "price": "$30",
+        "image": "/assets/images/art4.jpg",
+        "type": "art"
+      },
+      {
+        "id": 98,
+        "title": "Gallery Opening Night",
+        "date": "Jul 05",
+        "location": "Chicago",
+        "price": "$40",
+        "image": "/assets/images/art5.jpg",
+        "type": "art"
+      },
+      {
+        "id": 99,
+        "title": "Art and Wine Night",
+        "date": "Aug 15",
+        "location": "Napa Valley",
+        "price": "$60",
+        "image": "/assets/images/art6.jpg",
+        "type": "art"
+      },
+      {
+        "id": 100,
+        "title": "Art Festival 2024",
+        "date": "Sep 20",
+        "location": "Austin",
+        "price": "$75",
+        "image": "/assets/images/art7.jpg",
+        "type": "art"
+      },
+      {
+        "id": 101,
+        "title": "Art in Nature Retreat",
+        "date": "Oct 30",
+        "location": "Sedona",
+        "price": "$100",
+        "image": "/assets/images/art8.jpg",
+        "type": "art"
+      },
+      {
+        "id": 102,
+        "title": "Sculpture Symposium",
+        "date": "Nov 15",
+        "location": "Boston",
+        "price": "$90",
+        "image": "/assets/images/art9.jpg",
+        "type": "art"
+      },
+      {
+        "id": 103,
+        "title": "Art Collectors Gala",
+        "date": "Dec 10",
+        "location": "New York",
+        "price": "$200",
+        "image": "/assets/images/art10.jpg",
+        "type": "art"
+      },
+      {
+        "id": 104,
+        "title": "Women in Leadership Summit",
+        "date": "Jan 20",
+        "location": "New York",
+        "price": "$150",
+        "image": "/assets/images/women1.jpg",
+        "type": "women"
+      },
+      {
+        "id": 105,
+        "title": "Empowerment Workshop for Women",
+        "date": "Feb 15",
+        "location": "Online",
+        "price": "$40",
+        "image": "/assets/images/women2.jpg",
+        "type": "women"
+      },
+      {
+        "id": 106,
+        "title": "Women's Health and Wellness Retreat",
+        "date": "Mar 10",
+        "location": "California",
+        "price": "$200",
+        "image": "/assets/images/women3.jpg",
+        "type": "women"
+      },
+      {
+        "id": 107,
+        "title": "Women in Tech Conference",
+        "date": "Apr 25",
+        "location": "San Francisco",
+        "price": "$100",
+        "image": "/assets/images/women4.jpg",
+        "type": "women"
+      },
+      {
+        "id": 108,
+        "title": "Women Entrepreneurs Networking Event",
+        "date": "May 15",
+        "location": "Chicago",
+        "price": "$75",
+        "image": "/assets/images/women5.jpg",
+        "type": "women"
+      },
+      {
+        "id": 109,
+        "title": "Women in Sports Symposium",
+        "date": "Jun 20",
+        "location": "Los Angeles",
+        "price": "$50",
+        "image": "/assets/images/women6.jpg",
+        "type": "women"
+      },
+      {
+        "id": 110,
+        "title": "Self-Defense Workshop for Women",
+        "date": "Jul 05",
+        "location": "Online",
+        "price": "$30",
+        "image": "/assets/images/women7.jpg",
+        "type": "women"
+      },
+      {
+        "id": 111,
+        "title": "Women and Finance Seminar",
+        "date": "Aug 10",
+        "location": "New York",
+        "price": "$60",
+        "image": "/assets/images/women8.jpg",
+        "type": "women"
+      },
+      {
+        "id": 112,
+        "title": "Women in Arts Gala",
+        "date": "Sep 15",
+        "location": "Miami",
+        "price": "$80",
+        "image": "/assets/images/women9.jpg",
+        "type": "women"
+      },
+      {
+        "id": 113,
+        "title": "Women in Science Conference",
+        "date": "Oct 30",
+        "location": "Boston",
+        "price": "$120",
+        "image": "/assets/images/women10.jpg",
+        "type": "women"
+      },
+  
+
+      {
+        "id": 114,
+        "title": "Big Data Analytics Workshop",
+        "date": "Jan 15",
+        "location": "San Francisco",
+        "price": "$150",
+        "image": "/assets/images/bigdata1.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 115,
+        "title": "Data Visualization Conference",
+        "date": "Feb 10",
+        "location": "New York",
+        "price": "$200",
+        "image": "/assets/images/bigdata2.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 116,
+        "title": "Machine Learning in Big Data Seminar",
+        "date": "Mar 20",
+        "location": "Online",
+        "price": "$100",
+        "image": "/assets/images/bigdata3.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 117,
+        "title": "Big Data Summit 2024",
+        "date": "Apr 05",
+        "location": "Los Angeles",
+        "price": "$250",
+        "image": "/assets/images/bigdata4.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 118,
+        "title": "Data Science Bootcamp",
+        "date": "May 30",
+        "location": "Chicago",
+        "price": "$300",
+        "image": "/assets/images/bigdata5.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 119,
+        "title": "Big Data in Healthcare Symposium",
+        "date": "Jun 15",
+        "location": "Online",
+        "price": "$150",
+        "image": "/assets/images/bigdata6.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 120,
+        "title": "Big Data for Business Strategy",
+        "date": "Jul 25",
+        "location": "New York",
+        "price": "$100",
+        "image": "/assets/images/bigdata7.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 121,
+        "title": "Data Engineering Workshop",
+        "date": "Aug 10",
+        "location": "San Francisco",
+        "price": "$200",
+        "image": "/assets/images/bigdata8.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 122,
+        "title": "Big Data Innovations Forum",
+        "date": "Sep 15",
+        "location": "Miami",
+        "price": "$250",
+        "image": "/assets/images/bigdata9.jpg",
+        "type": "bigdata"
+      },
+      {
+        "id": 123,
+        "title": "Data Privacy and Security Conference",
+        "date": "Oct 20",
+        "location": "Boston",
+        "price": "$200",
+        "image": "/assets/images/bigdata10.jpg",
+        "type": "bigdata"
+      },
+  
+      {
+        "id": 124,
+        "title": "Project Management Professional Training",
+        "date": "Jan 12",
+        "location": "Los Angeles",
+        "price": "$300",
+        "image": "/assets/images/projectmanagement1.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 125,
+        "title": "Agile Project Management Workshop",
+        "date": "Feb 18",
+        "location": "San Francisco",
+        "price": "$150",
+        "image": "/assets/images/projectmanagement2.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 126,
+        "title": "Project Management Conference 2024",
+        "date": "Mar 25",
+        "location": "New York",
+        "price": "$250",
+        "image": "/assets/images/projectmanagement3.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 127,
+        "title": "Risk Management in Projects Seminar",
+        "date": "Apr 15",
+        "location": "Chicago",
+        "price": "$100",
+        "image": "/assets/images/projectmanagement4.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 128,
+        "title": "Project Scheduling Techniques Workshop",
+        "date": "May 20",
+        "location": "Online",
+        "price": "$80",
+        "image": "/assets/images/projectmanagement5.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 129,
+        "title": "Leadership in Project Management",
+        "date": "Jun 30",
+        "location": "Miami",
+        "price": "$200",
+        "image": "/assets/images/projectmanagement6.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 130,
+        "title": "Agile Methodologies Workshop",
+        "date": "Jul 10",
+        "location": "Los Angeles",
+        "price": "$150",
+        "image": "/assets/images/projectmanagement7.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 131,
+        "title": "Project Management Tools Training",
+        "date": "Aug 05",
+        "location": "Online",
+        "price": "$100",
+        "image": "/assets/images/projectmanagement8.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 132,
+        "title": "Project Management for Non-Profits",
+        "date": "Sep 20",
+        "location": "Chicago",
+        "price": "$120",
+        "image": "/assets/images/projectmanagement9.jpg",
+        "type": "project-management"
+      },
+      {
+        "id": 133,
+        "title": "Managing Remote Teams Seminar",
+        "date": "Oct 25",
+        "location": "Online",
+        "price": "$90",
+        "image": "/assets/images/projectmanagement10.jpg",
+        "type": "project-management"
+      },
+  
+    
+      {
+        "id": 134,
+        "title": "Himalayan Trekking Expedition",
+        "date": "Mar 05",
+        "location": "Himalayas",
+        "price": "$500",
+        "image": "/assets/images/trek1.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 135,
+        "title": "Appalachian Trail Hike",
+        "date": "Apr 10",
+        "location": "Appalachian Mountains",
+        "price": "$300",
+        "image": "/assets/images/trek2.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 136,
+        "title": "Alaska Wilderness Trek",
+        "date": "May 15",
+        "location": "Alaska",
+        "price": "$700",
+        "image": "/assets/images/trek3.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 137,
+        "title": "Grand Canyon Trekking Tour",
+        "date": "Jun 20",
+        "location": "Arizona",
+        "price": "$450",
+        "image": "/assets/images/trek4.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 138,
+        "title": "Rocky Mountain Hiking Adventure",
+        "date": "Jul 30",
+        "location": "Colorado",
+        "price": "$350",
+        "image": "/assets/images/trek5.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 139,
+        "title": "Pacific Crest Trail Expedition",
+        "date": "Aug 25",
+        "location": "California",
+        "price": "$600",
+        "image": "/assets/images/trek6.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 140,
+        "title": "Mt. Kilimanjaro Trek",
+        "date": "Sep 15",
+        "location": "Tanzania",
+        "price": "$1000",
+        "image": "/assets/images/trek7.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 141,
+        "title": "Inca Trail Adventure",
+        "date": "Oct 05",
+        "location": "Peru",
+        "price": "$800",
+        "image": "/assets/images/trek8.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 142,
+        "title": "Zion National Park Trek",
+        "date": "Nov 10",
+        "location": "Utah",
+        "price": "$400",
+        "image": "/assets/images/trek9.jpg",
+        "type": "treks Events"
+      },
+      {
+        "id": 143,
+        "title": "Mount Rainier Climb",
+        "date": "Dec 15",
+        "location": "Washington",
+        "price": "$500",
+        "image": "/assets/images/trek10.jpg",
+        "type": "treks Events"
+      },
+  
+      {
+        "id": 144,
+        "title": "Salsa Dance Workshop",
+        "date": "Jan 22",
+        "location": "Los Angeles",
+        "price": "$100",
+        "image": "/assets/images/dance1.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 145,
+        "title": "Ballet Performance Night",
+        "date": "Feb 14",
+        "location": "New York",
+        "price": "$80",
+        "image": "/assets/images/dance2.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 146,
+        "title": "Hip Hop Dance Competition",
+        "date": "Mar 10",
+        "location": "Chicago",
+        "price": "$50",
+        "image": "/assets/images/dance3.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 147,
+        "title": "Contemporary Dance Workshop",
+        "date": "Apr 18",
+        "location": "San Francisco",
+        "price": "$75",
+        "image": "/assets/images/dance4.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 148,
+        "title": "Dance Fitness Class",
+        "date": "May 25",
+        "location": "Online",
+        "price": "$30",
+        "image": "/assets/images/dance5.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 149,
+        "title": "Flamenco Dance Show",
+        "date": "Jun 15",
+        "location": "Miami",
+        "price": "$60",
+        "image": "/assets/images/dance6.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 150,
+        "title": "Jazz Dance Workshop",
+        "date": "Jul 10",
+        "location": "Los Angeles",
+        "price": "$70",
+        "image": "/assets/images/dance7.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 151,
+        "title": "Bollywood Dance Night",
+        "date": "Aug 20",
+        "location": "New York",
+        "price": "$90",
+        "image": "/assets/images/dance8.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 152,
+        "title": "Latin Dance Festival",
+        "date": "Sep 15",
+        "location": "Chicago",
+        "price": "$100",
+        "image": "/assets/images/dance9.jpg",
+        "type": "dance"
+      },
+      {
+        "id": 153,
+        "title": "Dance for Wellness Retreat",
+        "date": "Oct 30",
+        "location": "Miami",
+        "price": "$120",
+        "image": "/assets/images/dance10.jpg",
+        "type": "dance"
+      },
+  
+      {
+        "id": 154,
+        "title": "Finance for Beginners Workshop",
+        "date": "Jan 15",
+        "location": "New York",
+        "price": "$100",
+        "image": "/assets/images/finance1.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 155,
+        "title": "Investment Strategies Seminar",
+        "date": "Feb 20",
+        "location": "Chicago",
+        "price": "$150",
+        "image": "/assets/images/finance2.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 156,
+        "title": "Personal Finance Bootcamp",
+        "date": "Mar 25",
+        "location": "Los Angeles",
+        "price": "$200",
+        "image": "/assets/images/finance3.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 157,
+        "title": "Tax Planning Strategies Workshop",
+        "date": "Apr 10",
+        "location": "Online",
+        "price": "$80",
+        "image": "/assets/images/finance4.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 158,
+        "title": "Retirement Planning Seminar",
+        "date": "May 15",
+        "location": "San Francisco",
+        "price": "$120",
+        "image": "/assets/images/finance5.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 159,
+        "title": "Financial Literacy for Teens",
+        "date": "Jun 01",
+        "location": "Chicago",
+        "price": "$30",
+        "image": "/assets/images/finance6.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 160,
+        "title": "Real Estate Investment Workshop",
+        "date": "Jul 20",
+        "location": "Miami",
+        "price": "$250",
+        "image": "/assets/images/finance7.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 161,
+        "title": "Stock Market Fundamentals",
+        "date": "Aug 10",
+        "location": "Online",
+        "price": "$100",
+        "image": "/assets/images/finance8.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 162,
+        "title": "Entrepreneurship and Finance",
+        "date": "Sep 15",
+        "location": "New York",
+        "price": "$150",
+        "image": "/assets/images/finance9.jpg",
+        "type": "finance"
+      },
+      {
+        "id": 163,
+        "title": "Financial Planning for Families",
+        "date": "Oct 30",
+        "location": "Los Angeles",
+        "price": "$120",
+        "image": "/assets/images/finance10.jpg",
+        "type": "finance"
+      },
+  
+      {
+        "id": 164,
+        "title": "New Year's Eve Party",
+        "date": "Dec 31",
+        "location": "Los Angeles",
+        "price": "$150",
+        "image": "/assets/images/party1.jpg",
+        "type": "party"
+      },
+      {
+        "id": 165,
+        "title": "Halloween Costume Party",
+        "date": "Oct 31",
+        "location": "New York",
+        "price": "$50",
+        "image": "/assets/images/party2.jpg",
+        "type": "party"
+      },
+      {
+        "id": 166,
+        "title": "Summer Beach Party",
+        "date": "Jul 15",
+        "location": "Miami",
+        "price": "$100",
+        "image": "/assets/images/party3.jpg",
+        "type": "party"
+      },
+      {
+        "id": 167,
+        "title": "Outdoor BBQ Bash",
+        "date": "Aug 20",
+        "location": "Chicago",
+        "price": "$75",
+        "image": "/assets/images/party4.jpg",
+        "type": "party"
+      },
+      {
+        "id": 168,
+        "title": "Masquerade Ball",
+        "date": "Sep 30",
+        "location": "New Orleans",
+        "price": "$200",
+        "image": "/assets/images/party5.jpg",
+        "type": "party"
+      },
+      {
+        "id": 169,
+        "title": "St. Patrick's Day Celebration",
+        "date": "Mar 17",
+        "location": "Boston",
+        "price": "$40",
+        "image": "/assets/images/party6.jpg",
+        "type": "party"
+      },
+      {
+        "id": 170,
+        "title": "Spring Fling Dance Party",
+        "date": "Apr 21",
+        "location": "Los Angeles",
+        "price": "$60",
+        "image": "/assets/images/party7.jpg",
+        "type": "party"
+      },
+      {
+        "id": 171,
+        "title": "End of Summer Pool Party",
+        "date": "Aug 30",
+        "location": "Miami",
+        "price": "$80",
+        "image": "/assets/images/party8.jpg",
+        "type": "party"
+      },
+      {
+        "id": 172,
+        "title": "Holiday Celebration Party",
+        "date": "Dec 15",
+        "location": "New York",
+        "price": "$120",
+        "image": "/assets/images/party9.jpg",
+        "type": "party"
+      },
+      {
+        "id": 173,
+        "title": "Fall Fest Party",
+        "date": "Oct 05",
+        "location": "Chicago",
+        "price": "$50",
+        "image": "/assets/images/party10.jpg",
+        "type": "party"
+      },
+
+      {
+        "id": 174,
+        "title": "Cricket World Cup Viewing Party",
+        "date": "Oct 05",
+        "location": "New York",
+        "price": "$20",
+        "image": "/assets/images/cricket1.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 175,
+        "title": "Local Cricket Tournament",
+        "date": "Nov 10",
+        "location": "Los Angeles",
+        "price": "$100",
+        "image": "/assets/images/cricket2.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 176,
+        "title": "Cricket Coaching Camp",
+        "date": "Dec 15",
+        "location": "Miami",
+        "price": "$150",
+        "image": "/assets/images/cricket3.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 177,
+        "title": "Cricket Skills Workshop",
+        "date": "Jan 25",
+        "location": "Chicago",
+        "price": "$80",
+        "image": "/assets/images/cricket4.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 178,
+        "title": "Cricket T20 Match",
+        "date": "Feb 15",
+        "location": "San Francisco",
+        "price": "$40",
+        "image": "/assets/images/cricket5.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 179,
+        "title": "Cricket Fan Festival",
+        "date": "Mar 20",
+        "location": "New York",
+        "price": "$60",
+        "image": "/assets/images/cricket6.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 180,
+        "title": "Cricket Analysis Workshop",
+        "date": "Apr 30",
+        "location": "Los Angeles",
+        "price": "$70",
+        "image": "/assets/images/cricket7.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 181,
+        "title": "International Cricket Match Screening",
+        "date": "May 10",
+        "location": "Miami",
+        "price": "$50",
+        "image": "/assets/images/cricket8.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 182,
+        "title": "Cricket Charity Match",
+        "date": "Jun 25",
+        "location": "Chicago",
+        "price": "$100",
+        "image": "/assets/images/cricket9.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 183,
+        "title": "Youth Cricket Camp",
+        "date": "Jul 15",
+        "location": "San Francisco",
+        "price": "$120",
+        "image": "/assets/images/cricket10.jpg",
+        "type": "cricket"
+      },
+      {
+        "id": 184,
+        "title": "Agile Foundations Training",
+        "date": "Jan 20",
+        "location": "Online",
+        "price": "$150",
+        "image": "/assets/images/agile1.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 185,
+        "title": "Scrum Master Certification Workshop",
+        "date": "Feb 15",
+        "location": "San Francisco",
+        "price": "$200",
+        "image": "/assets/images/agile2.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 186,
+        "title": "Agile for Teams Training",
+        "date": "Mar 10",
+        "location": "New York",
+        "price": "$100",
+        "image": "/assets/images/agile3.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 187,
+        "title": "Lean Agile Workshop",
+        "date": "Apr 20",
+        "location": "Chicago",
+        "price": "$150",
+        "image": "/assets/images/agile4.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 188,
+        "title": "Agile Project Management Seminar",
+        "date": "May 25",
+        "location": "Online",
+        "price": "$120",
+        "image": "/assets/images/agile5.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 189,
+        "title": "Kanban Training Session",
+        "date": "Jun 30",
+        "location": "San Francisco",
+        "price": "$80",
+        "image": "/assets/images/agile6.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 190,
+        "title": "Agile Leadership Workshop",
+        "date": "Jul 15",
+        "location": "New York",
+        "price": "$100",
+        "image": "/assets/images/agile7.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 191,
+        "title": "Advanced Scrum Techniques",
+        "date": "Aug 05",
+        "location": "Chicago",
+        "price": "$150",
+        "image": "/assets/images/agile8.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 192,
+        "title": "Agile Retrospectives Workshop",
+        "date": "Sep 20",
+        "location": "Online",
+        "price": "$90",
+        "image": "/assets/images/agile9.jpg",
+        "type": "agile"
+      },
+      {
+        "id": 193,
+        "title": "Scaling Agile Practices",
+        "date": "Oct 30",
+        "location": "San Francisco",
+        "price": "$200",
+        "image": "/assets/images/agile10.jpg",
+        "type": "agile"
+      },
+
+      {
+        "id": 194,
+        "title": "Beginner's Camping Skills Workshop",
+        "date": "May 05",
+        "location": "Yosemite National Park",
+        "price": "$100",
+        "image": "/assets/images/camping1.jpg",
+        "type": "camping"
+      },
+      {
+        "id": 195,
+        "title": "Family Camping Trip",
+        "date": "Jun 15",
+        "location": "Big Sur",
+        "price": "$200",
+        "image": "/assets/images/camping2.jpg",
+        "type": "camping"
+      },
+      {
+        "id": 196,
+        "title": "Camping and Cooking Adventure",
+        "date": "Jul 25",
+        "location": "Joshua Tree",
+        "price": "$150",
+        "image": "/assets/images/camping3.jpg",
+        "type": "camping"
+      },
+      {
+        "id": 197,
+        "title": "Camping Under the Stars Night",
+        "date": "Aug 10",
+        "location": "Lake Tahoe",
+        "price": "$80",
+        "image": "/assets/images/camping4.jpg",
+        "type": "camping"
+      },
+      {
+        "id": 198,
+        "title": "Wilderness Survival Skills Retreat",
+        "date": "Sep 15",
+        "location": "Sequoia National Park",
+        "price": "$120",
+        "image": "/assets/images/camping5.jpg",
+        "type": "camping"
+      },
+      {
+        "id": 199,
+        "title": "Backpacking Adventure for Beginners",
+        "date": "Oct 20",
+        "location": "Shasta National Forest",
+        "price": "$150",
+        "image": "/assets/images/camping6.jpg",
+        "type": "camping"
+      },
+      {
+        "id": 200,
+        "title": "Winter Camping Expedition",
+        "date": "Dec 01",
+        "location": "Mount Rainier",
+        "price": "$250",
+        "image": "/assets/images/camping7.jpg",
+        "type": "camping"
+      },
+      {
+        "id": 201,
+        "title": "Bollywood Dance Workshop",
+        "date": "Jan 15",
+        "location": "Mumbai",
+        "price": "₹800",
+        "image": "/assets/images/bollywood1.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 202,
+        "title": "Bollywood Film Festival",
+        "date": "Feb 20",
+        "location": "Delhi",
+        "price": "₹500",
+        "image": "/assets/images/bollywood2.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 203,
+        "title": "Bollywood Music Night",
+        "date": "Mar 25",
+        "location": "Bangalore",
+        "price": "₹600",
+        "image": "/assets/images/bollywood3.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 204,
+        "title": "Bollywood Style Makeup Workshop",
+        "date": "Apr 10",
+        "location": "Hyderabad",
+        "price": "₹700",
+        "image": "/assets/images/bollywood4.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 205,
+        "title": "Bollywood Film Appreciation Course",
+        "date": "May 15",
+        "location": "Chennai",
+        "price": "₹900",
+        "image": "/assets/images/bollywood5.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 206,
+        "title": "Bollywood Karaoke Night",
+        "date": "Jun 05",
+        "location": "Pune",
+        "price": "₹300",
+        "image": "/assets/images/bollywood6.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 207,
+        "title": "Bollywood Music Production Workshop",
+        "date": "Jul 20",
+        "location": "Mumbai",
+        "price": "₹1200",
+        "image": "/assets/images/bollywood7.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 208,
+        "title": "Bollywood Dance Competition",
+        "date": "Aug 25",
+        "location": "Delhi",
+        "price": "₹400",
+        "image": "/assets/images/bollywood8.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 209,
+        "title": "Bollywood Film Shooting Experience",
+        "date": "Sep 30",
+        "location": "Mumbai",
+        "price": "₹2500",
+        "image": "/assets/images/bollywood9.jpg",
+        "type": "bollywood"
+      },
+      {
+        "id": 210,
+        "title": "Bollywood Storytelling Workshop",
+        "date": "Oct 15",
+        "location": "Bangalore",
+        "price": "₹600",
+        "image": "/assets/images/bollywood10.jpg",
+        "type": "bollywood"
+      },
+
+      {
+        "id": 211,
+        "title": "Online Learning Summit",
+        "date": "Jan 30",
+        "location": "Online",
+        "price": "₹100",
+        "image": "/assets/images/education1.jpg",
+        "type": "education"
+      },
+      {
+        "id": 212,
+        "title": "Career Development Workshop",
+        "date": "Feb 15",
+        "location": "Delhi",
+        "price": "₹200",
+        "image": "/assets/images/education2.jpg",
+        "type": "education"
+      },
+      {
+        "id": 213,
+        "title": "Educational Psychology Conference",
+        "date": "Mar 20",
+        "location": "Mumbai",
+        "price": "₹300",
+        "image": "/assets/images/education3.jpg",
+        "type": "education"
+      },
+      {
+        "id": 214,
+        "title": "Digital Learning Expo",
+        "date": "Apr 25",
+        "location": "Bangalore",
+        "price": "₹400",
+        "image": "/assets/images/education4.jpg",
+        "type": "education"
+      },
+      {
+        "id": 215,
+        "title": "STEM Education Workshop",
+        "date": "May 15",
+        "location": "Chennai",
+        "price": "₹500",
+        "image": "/assets/images/education5.jpg",
+        "type": "education"
+      },
+      {
+        "id": 216,
+        "title": "Language Learning Festival",
+        "date": "Jun 10",
+        "location": "Hyderabad",
+        "price": "₹300",
+        "image": "/assets/images/education6.jpg",
+        "type": "education"
+      },
+      {
+        "id": 217,
+        "title": "Teaching Methods Conference",
+        "date": "Jul 30",
+        "location": "Delhi",
+        "price": "₹350",
+        "image": "/assets/images/education7.jpg",
+        "type": "education"
+      },
+      {
+        "id": 218,
+        "title": "Education Innovation Summit",
+        "date": "Aug 20",
+        "location": "Pune",
+        "price": "₹600",
+        "image": "/assets/images/education8.jpg",
+        "type": "education"
+      },
+      {
+        "id": 219,
+        "title": "Youth Leadership Workshop",
+        "date": "Sep 25",
+        "location": "Bangalore",
+        "price": "₹400",
+        "image": "/assets/images/education9.jpg",
+        "type": "education"
+      },
+      {
+        "id": 220,
+        "title": "Inclusive Education Seminar",
+        "date": "Oct 05",
+        "location": "Chennai",
+        "price": "₹500",
+        "image": "/assets/images/education10.jpg",
+        "type": "education"
+      },
+  
+
+      {
+        "id": 221,
+        "title": "Climate Change Awareness Workshop",
+        "date": "Jan 15",
+        "location": "Online",
+        "price": "Free",
+        "image": "/assets/images/environment1.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 222,
+        "title": "Tree Plantation Drive",
+        "date": "Feb 22",
+        "location": "Local Park",
+        "price": "Free",
+        "image": "/assets/images/environment2.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 223,
+        "title": "Sustainable Living Fair",
+        "date": "Mar 18",
+        "location": "Bangalore",
+        "price": "₹100",
+        "image": "/assets/images/environment3.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 224,
+        "title": "Environmental Policy Discussion",
+        "date": "Apr 15",
+        "location": "Delhi",
+        "price": "₹200",
+        "image": "/assets/images/environment4.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 225,
+        "title": "Plastic Waste Management Workshop",
+        "date": "May 10",
+        "location": "Mumbai",
+        "price": "Free",
+        "image": "/assets/images/environment5.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 226,
+        "title": "Wildlife Conservation Seminar",
+        "date": "Jun 05",
+        "location": "Chennai",
+        "price": "₹300",
+        "image": "/assets/images/environment6.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 227,
+        "title": "Ocean Cleanup Initiative",
+        "date": "Jul 20",
+        "location": "Goa",
+        "price": "Free",
+        "image": "/assets/images/environment7.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 228,
+        "title": "Renewable Energy Fair",
+        "date": "Aug 25",
+        "location": "Bangalore",
+        "price": "₹150",
+        "image": "/assets/images/environment8.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 229,
+        "title": "Eco-Friendly Products Expo",
+        "date": "Sep 10",
+        "location": "Delhi",
+        "price": "₹100",
+        "image": "/assets/images/environment9.jpg",
+        "type": "environment"
+      },
+      {
+        "id": 230,
+        "title": "Sustainable Agriculture Workshop",
+        "date": "Oct 15",
+        "location": "Pune",
+        "price": "₹200",
+        "image": "/assets/images/environment10.jpg",
+        "type": "environment"
+      },
+  
+    
+      {
+        "id": 231,
+        "title": "Health and Wellness Expo",
+        "date": "Jan 20",
+        "location": "Mumbai",
+        "price": "₹500",
+        "image": "/assets/images/medical1.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 232,
+        "title": "First Aid Training Course",
+        "date": "Feb 15",
+        "location": "Delhi",
+        "price": "₹300",
+        "image": "/assets/images/medical2.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 233,
+        "title": "Mental Health Awareness Seminar",
+        "date": "Mar 20",
+        "location": "Bangalore",
+        "price": "Free",
+        "image": "/assets/images/medical3.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 234,
+        "title": "Nutrition and Diet Workshop",
+        "date": "Apr 10",
+        "location": "Chennai",
+        "price": "₹250",
+        "image": "/assets/images/medical4.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 235,
+        "title": "Child Health and Development Conference",
+        "date": "May 15",
+        "location": "Hyderabad",
+        "price": "₹400",
+        "image": "/assets/images/medical5.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 236,
+        "title": "Yoga and Meditation Retreat",
+        "date": "Jun 05",
+        "location": "Goa",
+        "price": "₹800",
+        "image": "/assets/images/medical6.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 237,
+        "title": "Advanced CPR Training",
+        "date": "Jul 20",
+        "location": "Delhi",
+        "price": "₹350",
+        "image": "/assets/images/medical7.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 238,
+        "title": "Health Screening Camp",
+        "date": "Aug 25",
+        "location": "Mumbai",
+        "price": "Free",
+        "image": "/assets/images/medical8.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 239,
+        "title": "Women's Health Workshop",
+        "date": "Sep 10",
+        "location": "Chennai",
+        "price": "₹300",
+        "image": "/assets/images/medical9.jpg",
+        "type": "medical"
+      },
+      {
+        "id": 240,
+        "title": "Senior Health Awareness Program",
+        "date": "Oct 15",
+        "location": "Pune",
+        "price": "Free",
+        "image": "/assets/images/medical10.jpg",
+        "type": "medical"
+      },
+  
+
+      {
+        "id": 241,
+        "title": "Python Basics Workshop",
+        "date": "Jan 20",
+        "location": "Online",
+        "price": "₹500",
+        "image": "/assets/images/python1.jpg",
+        "type": "python"
+      },
+      {
+        "id": 242,
+        "title": "Data Science with Python Bootcamp",
+        "date": "Feb 25",
+        "location": "Bangalore",
+        "price": "₹1500",
+        "image": "/assets/images/python2.jpg",
+        "type": "python"
+      },
+      {
+        "id": 243,
+        "title": "Python for Data Analysis Workshop",
+        "date": "Mar 15",
+        "location": "Delhi",
+        "price": "₹800",
+        "image": "/assets/images/python3.jpg",
+        "type": "python"
+      },
+      {
+        "id": 244,
+        "title": "Web Development with Python Course",
+        "date": "Apr 10",
+        "location": "Mumbai",
+        "price": "₹1200",
+        "image": "/assets/images/python4.jpg",
+        "type": "python"
+      },
+      {
+        "id": 245,
+        "title": "Python for Machine Learning Seminar",
+        "date": "May 25",
+        "location": "Chennai",
+        "price": "₹1000",
+        "image": "/assets/images/python5.jpg",
+        "type": "python"
+      },
+      {
+        "id": 246,
+        "title": "Advanced Python Programming Workshop",
+        "date": "Jun 30",
+        "location": "Hyderabad",
+        "price": "₹900",
+        "image": "/assets/images/python6.jpg",
+        "type": "python"
+      },
+      {
+        "id": 247,
+        "title": "Python for Automation Course",
+        "date": "Jul 20",
+        "location": "Pune",
+        "price": "₹600",
+        "image": "/assets/images/python7.jpg",
+        "type": "python"
+      },
+      {
+        "id": 248,
+        "title": "Data Visualization with Python Workshop",
+        "date": "Aug 15",
+        "location": "Bangalore",
+        "price": "₹750",
+        "image": "/assets/images/python8.jpg",
+        "type": "python"
+      },
+      {
+        "id": 249,
+        "title": "Python Game Development Workshop",
+        "date": "Sep 10",
+        "location": "Delhi",
+        "price": "₹850",
+        "image": "/assets/images/python9.jpg",
+        "type": "python"
+      },
+      {
+        "id": 250,
+        "title": "Python Networking Course",
+        "date": "Oct 05",
+        "location": "Mumbai",
+        "price": "₹950",
+        "image": "/assets/images/python10.jpg",
+        "type": "python"
+      },
+
+      {
+        "id": 251,
+        "title": "Analytics in Business Conference",
+        "date": "Jan 30",
+        "location": "Mumbai",
+        "price": "₹1000",
+        "image": "/assets/images/analytics1.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 252,
+        "title": "Big Data Analytics Workshop",
+        "date": "Feb 20",
+        "location": "Bangalore",
+        "price": "₹1200",
+        "image": "/assets/images/analytics2.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 253,
+        "title": "Data Analytics Bootcamp",
+        "date": "Mar 25",
+        "location": "Delhi",
+        "price": "₹1500",
+        "image": "/assets/images/analytics3.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 254,
+        "title": "Predictive Analytics Seminar",
+        "date": "Apr 15",
+        "location": "Chennai",
+        "price": "₹800",
+        "image": "/assets/images/analytics4.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 255,
+        "title": "Data Visualization Techniques Workshop",
+        "date": "May 10",
+        "location": "Hyderabad",
+        "price": "₹600",
+        "image": "/assets/images/analytics5.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 256,
+        "title": "Analytics for Marketing Professionals",
+        "date": "Jun 05",
+        "location": "Pune",
+        "price": "₹500",
+        "image": "/assets/images/analytics6.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 257,
+        "title": "Social Media Analytics Workshop",
+        "date": "Jul 30",
+        "location": "Delhi",
+        "price": "₹700",
+        "image": "/assets/images/analytics7.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 258,
+        "title": "Web Analytics Certification Course",
+        "date": "Aug 20",
+        "location": "Mumbai",
+        "price": "₹1000",
+        "image": "/assets/images/analytics8.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 259,
+        "title": "Advanced Analytics Techniques Workshop",
+        "date": "Sep 10",
+        "location": "Bangalore",
+        "price": "₹1200",
+        "image": "/assets/images/analytics9.jpg",
+        "type": "analytics"
+      },
+      {
+        "id": 260,
+        "title": "Data-Driven Decision Making Seminar",
+        "date": "Oct 15",
+        "location": "Chennai",
+        "price": "₹800",
+        "image": "/assets/images/analytics10.jpg",
+        "type": "analytics"
+      },
+  
+    
+      {
+        "id": 261,
+        "title": "Cultural Heritage Festival",
+        "date": "Jan 20",
+        "location": "Delhi",
+        "price": "₹300",
+        "image": "/assets/images/culture1.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 262,
+        "title": "Traditional Dance Workshop",
+        "date": "Feb 25",
+        "location": "Mumbai",
+        "price": "₹500",
+        "image": "/assets/images/culture2.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 263,
+        "title": "Cultural Exchange Program",
+        "date": "Mar 15",
+        "location": "Bangalore",
+        "price": "Free",
+        "image": "/assets/images/culture3.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 264,
+        "title": "Folklore Storytelling Event",
+        "date": "Apr 10",
+        "location": "Chennai",
+        "price": "₹200",
+        "image": "/assets/images/culture4.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 265,
+        "title": "Culinary Traditions Festival",
+        "date": "May 25",
+        "location": "Delhi",
+        "price": "₹400",
+        "image": "/assets/images/culture5.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 266,
+        "title": "Art and Culture Symposium",
+        "date": "Jun 15",
+        "location": "Bangalore",
+        "price": "₹500",
+        "image": "/assets/images/culture6.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 267,
+        "title": "Cultural Music Concert",
+        "date": "Jul 10",
+        "location": "Mumbai",
+        "price": "₹300",
+        "image": "/assets/images/culture7.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 268,
+        "title": "Heritage Walk",
+        "date": "Aug 20",
+        "location": "Delhi",
+        "price": "Free",
+        "image": "/assets/images/culture8.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 269,
+        "title": "Cultural Art Exhibition",
+        "date": "Sep 15",
+        "location": "Bangalore",
+        "price": "₹250",
+        "image": "/assets/images/culture9.jpg",
+        "type": "culture"
+      },
+      {
+        "id": 270,
+        "title": "Global Cultures Forum",
+        "date": "Oct 05",
+        "location": "Chennai",
+        "price": "₹600",
+        "image": "/assets/images/culture10.jpg",
+        "type": "culture"
+      },
+  
+      {
+        "id": 271,
+        "title": "Classical Music Concert",
+        "date": "Jan 10",
+        "location": "Delhi",
+        "price": "₹400",
+        "image": "/assets/images/music1.jpg",
+        "type": "music"
+      },
+      {
+        "id": 272,
+        "title": "Jazz Night",
+        "date": "Feb 20",
+        "location": "Mumbai",
+        "price": "₹600",
+        "image": "/assets/images/music2.jpg",
+        "type": "music"
+      },
+      {
+        "id": 273,
+        "title": "Rock Music Festival",
+        "date": "Mar 15",
+        "location": "Bangalore",
+        "price": "₹500",
+        "image": "/assets/images/music3.jpg",
+        "type": "music"
+      },
+      {
+        "id": 274,
+        "title": "Music Production Workshop",
+        "date": "Apr 25",
+        "location": "Chennai",
+        "price": "₹800",
+        "image": "/assets/images/music4.jpg",
+        "type": "music"
+      },
+      {
+        "id": 275,
+        "title": "Pop Music Gala",
+        "date": "May 30",
+        "location": "Delhi",
+        "price": "₹700",
+        "image": "/assets/images/music5.jpg",
+        "type": "music"
+      },
+      {
+        "id": 276,
+        "title": "Indie Music Showcase",
+        "date": "Jun 10",
+        "location": "Mumbai",
+        "price": "₹300",
+        "image": "/assets/images/music6.jpg",
+        "type": "music"
+      },
+      {
+        "id": 277,
+        "title": "Acoustic Music Evening",
+        "date": "Jul 15",
+        "location": "Bangalore",
+        "price": "₹400",
+        "image": "/assets/images/music7.jpg",
+        "type": "music"
+      },
+      {
+        "id": 278,
+        "title": "Folk Music Festival",
+        "date": "Aug 20",
+        "location": "Chennai",
+        "price": "₹300",
+        "image": "/assets/images/music8.jpg",
+        "type": "music"
+      },
+      {
+        "id": 279,
+        "title": "Electronic Music Party",
+        "date": "Sep 10",
+        "location": "Delhi",
+        "price": "₹500",
+        "image": "/assets/images/music9.jpg",
+        "type": "music"
+      },
+      {
+        "id": 280,
+        "title": "Music Therapy Workshop",
+        "date": "Oct 05",
+        "location": "Pune",
+        "price": "₹400",
+        "image": "/assets/images/music10.jpg",
+        "type": "music"
+      },
+  
+  
+      {
+        "id": 281,
+        "title": "Swimming Coaching Camp",
+        "date": "Jan 15",
+        "location": "Delhi",
+        "price": "₹300",
+        "image": "/assets/images/swimming1.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 282,
+        "title": "Open Water Swimming Challenge",
+        "date": "Feb 20",
+        "location": "Goa",
+        "price": "₹500",
+        "image": "/assets/images/swimming2.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 283,
+        "title": "Swimming Championship",
+        "date": "Mar 25",
+        "location": "Mumbai",
+        "price": "₹600",
+        "image": "/assets/images/swimming3.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 284,
+        "title": "Swimming Fitness Program",
+        "date": "Apr 10",
+        "location": "Bangalore",
+        "price": "₹400",
+        "image": "/assets/images/swimming4.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 285,
+        "title": "Children's Swimming Lessons",
+        "date": "May 15",
+        "location": "Chennai",
+        "price": "₹200",
+        "image": "/assets/images/swimming5.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 286,
+        "title": "Swimming Safety Course",
+        "date": "Jun 05",
+        "location": "Pune",
+        "price": "₹300",
+        "image": "/assets/images/swimming6.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 287,
+        "title": "Advanced Swimming Techniques Workshop",
+        "date": "Jul 20",
+        "location": "Delhi",
+        "price": "₹600",
+        "image": "/assets/images/swimming7.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 288,
+        "title": "Masters Swimming Program",
+        "date": "Aug 25",
+        "location": "Mumbai",
+        "price": "₹800",
+        "image": "/assets/images/swimming8.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 289,
+        "title": "Swimming Relay Competition",
+        "date": "Sep 10",
+        "location": "Bangalore",
+        "price": "₹400",
+        "image": "/assets/images/swimming9.jpg",
+        "type": "swimming"
+      },
+      {
+        "id": 290,
+        "title": "Aquatic Fitness Challenge",
+        "date": "Oct 15",
+        "location": "Goa",
+        "price": "₹500",
+        "image": "/assets/images/swimming10.jpg",
+        "type": "swimming"
+      }
+    ]
+  }
+  

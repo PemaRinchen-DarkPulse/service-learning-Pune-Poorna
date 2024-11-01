@@ -1,20 +1,33 @@
-import React, { useState } from 'react';
-import './style.css'; // Assuming your styles are defined here
-import marathon from '../../assets/marathon.webp';
-import event2 from '../../assets/marathon.jpg'; // Add more images
-import event3 from '../../assets/marathon.jpg'; // Add more images
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
-const EventSection = ({ title, location, events }) => {
+import Banner from './banner';
+const EventSection = ({ title, location, eventType }) => {
+    const [events, setEvents] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const eventsToShow = events.slice(currentIndex, currentIndex + 3);
+
+    // Fetch data from mock backend
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch('http://localhost:3001/events');
+                const data = await response.json();
+                // Filter events based on the specified type
+                const filteredEvents = data.filter(event => event.type === eventType);
+                setEvents(filteredEvents);
+            } catch (error) {
+                console.error('Error fetching events:', error);
+            }
+        };
+        fetchData();
+    }, [eventType]);
 
     const handleNext = () => {
         if (currentIndex + 3 < events.length) {
             setCurrentIndex(currentIndex + 1);
         }
     };
- 
+
     const handlePrev = () => {
         if (currentIndex > 0) {
             setCurrentIndex(currentIndex - 1);
@@ -22,284 +35,189 @@ const EventSection = ({ title, location, events }) => {
     };
 
     return (
-        <div className="popular-events-container row">
-            <div className="header col-2 d-flex flex-column">
-                <div className='mt-3'>
-                    <h3>{title}</h3>
-                    <span className="location">{location}</span>
-                </div>
-                <div className='mt-auto'>
-                    <Link to="#" className='mt-auto'>VIEW ALL <span className="arrow">→</span></Link>
-                </div>
+        <div style={containerStyle}>
+            <div style={headerStyle}>
+                <h3>{title}</h3>
+                <span style={locationStyle}>{location}</span>
+                <Link to="#" style={viewAllStyle}>VIEW ALL →</Link>
             </div>
-            <div className="event-navigation col-10">
-                <button className="nav-button" onClick={handlePrev} disabled={currentIndex === 0}>
-                    <span className="arrow">←</span>
+            <div style={eventNavStyle}>
+                <button
+                    style={buttonStyle}
+                    onClick={handlePrev}
+                    disabled={currentIndex === 0}
+                >
+                    ←
                 </button>
-                <div className="event-list">
+                <div style={eventListStyle}>
                     {eventsToShow.map((event, index) => (
-                        <div key={index} className="col-12 col-md-4 mb-3 d-flex justify-content-center">
-                            <div className="event-card shadow-sm">
-                                <img src={event.image} alt={event.title} className="event-image" />
-                                <div className="event-details p-3">
-                                    <h5 className="event-title">{event.title}</h5>
-                                    <p className="event-date">{event.date}</p>
-                                    <p className="event-location">{event.location}</p>
-                                    <p className="event-price">{event.price}</p>
+                        <div key={event.id} style={cardContainerStyle}>
+                            <div style={cardStyle}>
+                                <img src={event.image} alt={event.title} style={imageStyle} />
+                                <div style={detailsStyle}>
+                                    <h5 style={titleStyle}>{event.title}</h5>
+                                    <p style={detailTextStyle}>{event.date}</p>
+                                    <p style={detailTextStyle}>{event.location}</p>
+                                    <p style={priceStyle}>{event.price}</p>
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
-                <button className="nav-button" onClick={handleNext} disabled={currentIndex + 3 >= events.length}>
-                    <span className="arrow">→</span>
+                <button
+                    style={buttonStyle}
+                    onClick={handleNext}
+                    disabled={currentIndex + 3 >= events.length}
+                >
+                    →
                 </button>
             </div>
         </div>
     );
 };
 
-export const MarathonEvents = () => {
-    const events = [
-        {
-            title: "Pune Hill Half Marathon - Practice Run",
-            date: "Sep 15",
-            location: "Pune",
-            price: "Free",
-            image: marathon,
-        },
-        {
-            title: "Pune Hill Half Marathon",
-            date: "Sep 29",
-            location: "Pune",
-            price: "₹399 onwards",
-            image: event2,
-        },
-        {
-            title: "COC Entrepreneurs Meetup-Pune",
-            date: "Sep 22",
-            location: "Koregaon Park, Pune",
-            price: "Free",
-            image: event3,
-        },
-        {
-            title: "Tech Conference 2024",
-            date: "Oct 10",
-            location: "Mumbai",
-            price: "₹499 onwards",
-            image: event2,
-        },
-        {
-            title: "Music Festival",
-            date: "Nov 05",
-            location: "Goa",
-            price: "₹799 onwards",
-            image: event3,
-        },
-        // Add more events as needed
-    ];
+const containerStyle = {
+    display: 'flex',
+    flexDirection: 'row',
+    margin: '20px',
+    padding: '20px',
+    borderRadius: '8px',
+    backgroundColor: '#f8f9fa',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+};
 
+const headerStyle = {
+    flex: '2',
+    paddingRight: '20px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+};
+
+const locationStyle = {
+    fontSize: '14px',
+    color: '#6c757d',
+};
+
+const viewAllStyle = {
+    textDecoration: 'none',
+    color: '#007bff',
+    fontWeight: 'bold',
+    marginTop: 'auto',
+};
+
+const eventNavStyle = {
+    flex: '8',
+    display: 'flex',
+    alignItems: 'center',
+};
+
+const buttonStyle = {
+    padding: '10px',
+    backgroundColor: '#007bff',
+    color: 'white',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    fontSize: '18px',
+    margin: '0 10px',
+};
+
+const eventListStyle = {
+    display: 'flex',
+    flexDirection: 'row',
+    overflowX: 'auto',
+    width: '100%', // Ensure it uses the full width of the container
+};
+
+const cardContainerStyle = {
+    flex: '1',
+    display: 'flex',
+    justifyContent: 'center',
+    margin: '0 5px',
+};
+
+const cardStyle = {
+    width: '300px', // Fixed width for uniformity
+    height: '400px', // Fixed height for uniformity
+    borderRadius: '8px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#ffffff',
+    overflow: 'hidden',
+};
+
+const imageStyle = {
+    width: '100%',
+    height: '150px',
+    objectFit: 'cover',
+};
+
+const detailsStyle = {
+    padding: '15px',
+};
+
+const titleStyle = {
+    fontSize: '18px',
+    marginBottom: '10px',
+    color: '#333',
+};
+
+const detailTextStyle = {
+    fontSize: '14px',
+    color: '#6c757d',
+};
+
+const priceStyle = {
+    fontSize: '16px',
+    color: '#28a745',
+    fontWeight: 'bold',
+};
+
+const eventCategories = [
+    { title: "Marathon Events", location: "In Pune", eventType: "marathon" },
+    { title: "Virtual Sport Events", location: "In Pune", eventType: "virtual-sports" },
+    { title: "Cycling Events", location: "In Pune", eventType: "cycling" },
+    { title: "Tours Events", location: "In Pune", eventType: "tours" },
+    { title: "Monthly Challenge Events", location: "In Pune", eventType: "monthly-challenge" },
+    { title: "Adventure Events", location: "In Pune", eventType: "adventure" },
+    { title: "Health Events", location: "In Pune", eventType: "health" },
+    { title: "AI Events", location: "In Pune", eventType: "ai" },
+    { title: "Art Events", location: "In Pune", eventType: "art" },
+    { title: "Women Events", location: "In Pune", eventType: "women" },
+    { title: "Big Data Events", location: "In Pune", eventType: "bigdata" },
+    { title: "Project Management Events", location: "In Pune", eventType: "project-management" },
+    { title: "Treks Events", location: "In Pune", eventType: "treks" },
+    { title: "Dance Events", location: "In Pune", eventType: "dance" },
+    { title: "Finance Events", location: "In Pune", eventType: "finance" },
+    { title: "Party Events", location: "In Pune", eventType: "party" },
+    { title: "Cricket Events", location: "In Pune", eventType: "cricket" },
+    { title: "Agile Events", location: "In Pune", eventType: "agile" },
+    { title: "Bollywood Events", location: "In Pune", eventType: "bollywood" },
+    { title: "Education Events", location: "In Pune", eventType: "education" },
+    { title: "Environment Events", location: "In Pune", eventType: "environment" },
+    { title: "Medical Events", location: "In Pune", eventType: "medical" },
+    { title: "Python Events", location: "In Pune", eventType: "python" },
+    { title: "Analytics Events", location: "In Pune", eventType: "analytics" },
+    { title: "Music Events", location: "In Pune", eventType: "music" },
+    { title: "Swimming Events", location: "In Pune", eventType: "swimming" },
+];
+
+const EventsPage = () => {
     return (
-        <EventSection 
-            title="Marathon Events" 
-            location="In Pune" 
-            events={events}
-        />
+        <>
+            {eventCategories.map((category, index) => (
+                <React.Fragment key={index}>
+                    <EventSection
+                        title={category.title}
+                        location={category.location}
+                        eventType={category.eventType}
+                    />
+                    {(index + 1) % 3 === 0 && <Banner />}
+                </React.Fragment>
+            ))}
+        </>
     );
 };
 
-export const VirtualSportEvents = () => {
-    const events = [
-        {
-            title: "Pune Hill Half Marathon - Practice Run",
-            date: "Sep 15",
-            location: "Pune",
-            price: "Free",
-            image: marathon,
-        },
-        {
-            title: "Pune Hill Half Marathon",
-            date: "Sep 29",
-            location: "Pune",
-            price: "₹399 onwards",
-            image: event2,
-        },
-        {
-            title: "COC Entrepreneurs Meetup-Pune",
-            date: "Sep 22",
-            location: "Koregaon Park, Pune",
-            price: "Free",
-            image: event3,
-        },
-        {
-            title: "Tech Conference 2024",
-            date: "Oct 10",
-            location: "Mumbai",
-            price: "₹499 onwards",
-            image: event2,
-        },
-        {
-            title: "Music Festival",
-            date: "Nov 05",
-            location: "Goa",
-            price: "₹799 onwards",
-            image: event3,
-        },
-        // Add more events as needed
-    ];
 
-    return (
-        <EventSection 
-            title="Virtual Sport Events" 
-            location="In Pune" 
-            events={events}
-        />
-    );
-};
-
-export const CyclingEvents = () => {
-    const events = [
-        {
-            title: "Pune Hill Half Marathon - Practice Run",
-            date: "Sep 15",
-            location: "Pune",
-            price: "Free",
-            image: marathon,
-        },
-        {
-            title: "Pune Hill Half Marathon",
-            date: "Sep 29",
-            location: "Pune",
-            price: "₹399 onwards",
-            image: event2,
-        },
-        {
-            title: "COC Entrepreneurs Meetup-Pune",
-            date: "Sep 22",
-            location: "Koregaon Park, Pune",
-            price: "Free",
-            image: event3,
-        },
-        {
-            title: "Tech Conference 2024",
-            date: "Oct 10",
-            location: "Mumbai",
-            price: "₹499 onwards",
-            image: event2,
-        },
-        {
-            title: "Music Festival",
-            date: "Nov 05",
-            location: "Goa",
-            price: "₹799 onwards",
-            image: event3,
-        },
-        // Add more events as needed
-    ];
-
-    return (
-        <EventSection 
-            title="Cycling Events" 
-            location="In Pune" 
-            events={events}
-        />
-    );
-};
-
-export const TrekEvents = () => {
-    const events = [
-        {
-            title: "Pune Hill Half Marathon - Practice Run",
-            date: "Sep 15",
-            location: "Pune",
-            price: "Free",
-            image: marathon,
-        },
-        {
-            title: "Pune Hill Half Marathon",
-            date: "Sep 29",
-            location: "Pune",
-            price: "₹399 onwards",
-            image: event2,
-        },
-        {
-            title: "COC Entrepreneurs Meetup-Pune",
-            date: "Sep 22",
-            location: "Koregaon Park, Pune",
-            price: "Free",
-            image: event3,
-        },
-        {
-            title: "Tech Conference 2024",
-            date: "Oct 10",
-            location: "Mumbai",
-            price: "₹499 onwards",
-            image: event2,
-        },
-        {
-            title: "Music Festival",
-            date: "Nov 05",
-            location: "Goa",
-            price: "₹799 onwards",
-            image: event3,
-        },
-        // Add more events as needed
-    ];
-
-    return (
-        <EventSection 
-            title="Trek Events" 
-            location="In Pune" 
-            events={events}
-        />
-    );
-};
-
-export const ToursEvents = () => {
-    const events = [
-        {
-            title: "Pune Hill Half Marathon - Practice Run",
-            date: "Sep 15",
-            location: "Pune",
-            price: "Free",
-            image: marathon,
-        },
-        {
-            title: "Pune Hill Half Marathon",
-            date: "Sep 29",
-            location: "Pune",
-            price: "₹399 onwards",
-            image: event2,
-        },
-        {
-            title: "COC Entrepreneurs Meetup-Pune",
-            date: "Sep 22",
-            location: "Koregaon Park, Pune",
-            price: "Free",
-            image: event3,
-        },
-        {
-            title: "Tech Conference 2024",
-            date: "Oct 10",
-            location: "Mumbai",
-            price: "₹499 onwards",
-            image: event2,
-        },
-        {
-            title: "Music Festival",
-            date: "Nov 05",
-            location: "Goa",
-            price: "₹799 onwards",
-            image: event3,
-        },
-        // Add more events as needed
-    ];
-
-    return (
-        <EventSection 
-            title="Tours Events" 
-            location="In Pune" 
-            events={events}
-        />
-    );
-};
+export default EventsPage;
