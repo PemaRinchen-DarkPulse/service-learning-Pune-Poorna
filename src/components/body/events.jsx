@@ -1,18 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Banner from './banner';
+import Banner from './Banner';
+
 const EventSection = ({ title, location, eventType }) => {
     const [events, setEvents] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const eventsToShow = events.slice(currentIndex, currentIndex + 3);
 
-    // Fetch data from mock backend
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await fetch('http://localhost:3001/events');
                 const data = await response.json();
-                // Filter events based on the specified type
                 const filteredEvents = data.filter(event => event.type === eventType);
                 setEvents(filteredEvents);
             } catch (error) {
@@ -39,7 +38,7 @@ const EventSection = ({ title, location, eventType }) => {
             <div style={headerStyle}>
                 <h3>{title}</h3>
                 <span style={locationStyle}>{location}</span>
-                <Link to="#" style={viewAllStyle}>VIEW ALL →</Link>
+                <Link to={`/viewall/${eventType}`} style={{ ...viewAllStyle, textDecoration: 'none' }}>VIEW ALL →</Link>
             </div>
             <div style={eventNavStyle}>
                 <button
@@ -50,9 +49,14 @@ const EventSection = ({ title, location, eventType }) => {
                     ←
                 </button>
                 <div style={eventListStyle}>
-                    {eventsToShow.map((event, index) => (
-                        <div key={event.id} style={cardContainerStyle}>
-                            <div style={cardStyle}>
+                    {eventsToShow.map((event) => (
+                        <Link to={`/eventDetails/${event.id}`} key={event.id} style={cardContainerStyle}>
+                            <div
+                                className="card"
+                                style={cardStyle}
+                                onMouseEnter={handleMouseEnter}
+                                onMouseLeave={handleMouseLeave}
+                            >
                                 <img src={event.image} alt={event.title} style={imageStyle} />
                                 <div style={detailsStyle}>
                                     <h5 style={titleStyle}>{event.title}</h5>
@@ -61,7 +65,7 @@ const EventSection = ({ title, location, eventType }) => {
                                     <p style={priceStyle}>{event.price}</p>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
                 <button
@@ -79,7 +83,7 @@ const EventSection = ({ title, location, eventType }) => {
 const containerStyle = {
     display: 'flex',
     flexDirection: 'row',
-    margin: '20px',
+    margin: '20px 0',
     padding: '20px',
     borderRadius: '8px',
     backgroundColor: '#f8f9fa',
@@ -100,7 +104,6 @@ const locationStyle = {
 };
 
 const viewAllStyle = {
-    textDecoration: 'none',
     color: '#007bff',
     fontWeight: 'bold',
     marginTop: 'auto',
@@ -110,6 +113,7 @@ const eventNavStyle = {
     flex: '8',
     display: 'flex',
     alignItems: 'center',
+    padding: '20px 0', 
 };
 
 const buttonStyle = {
@@ -126,24 +130,17 @@ const buttonStyle = {
 const eventListStyle = {
     display: 'flex',
     flexDirection: 'row',
-    overflowX: 'auto',
-    width: '100%', // Ensure it uses the full width of the container
+    overflowX: 'hidden',
+    width: '100%',
+    gap: '20px',
 };
 
 const cardContainerStyle = {
-    flex: '1',
+    flex: 'none',
     display: 'flex',
     justifyContent: 'center',
-    margin: '0 5px',
-};
-
-const cardStyle = {
-    width: '300px', // Fixed width for uniformity
-    height: '400px', // Fixed height for uniformity
-    borderRadius: '8px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    backgroundColor: '#ffffff',
-    overflow: 'hidden',
+    cursor: 'pointer',
+    margin: '0 5px', 
 };
 
 const imageStyle = {
@@ -171,6 +168,26 @@ const priceStyle = {
     fontSize: '16px',
     color: '#28a745',
     fontWeight: 'bold',
+};
+
+const cardStyle = {
+    padding: '15px',
+    width: '300px', 
+    height: '350px', 
+    borderRadius: '8px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#ffffff',
+    overflow: 'hidden',
+    transition: 'transform 0.2s',
+    margin: '10px 0',
+};
+
+const handleMouseEnter = (e) => {
+    e.currentTarget.style.transform = 'scale(1.05)'; 
+};
+
+const handleMouseLeave = (e) => {
+    e.currentTarget.style.transform = 'scale(1)'; 
 };
 
 const eventCategories = [
@@ -218,6 +235,5 @@ const EventsPage = () => {
         </>
     );
 };
-
 
 export default EventsPage;

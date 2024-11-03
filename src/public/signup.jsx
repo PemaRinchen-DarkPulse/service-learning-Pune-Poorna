@@ -15,24 +15,25 @@ const Signup = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // Password validation
+  
     if (password !== confirmPassword) {
       setError('Passwords do not match.');
       return;
     }
-    
+  
     try {
-      // Send POST request to your API
-      const response = await axios.post('http://localhost:8080/register', { email, password });
-      
-      if (response.data.exists) {
+      // Check if the user already exists
+      const { data: users } = await axios.get('http://localhost:3001/login');
+      const userExists = users.some((user) => user.email === email);
+  
+      if (userExists) {
         setError('User already exists.');
         setSuccess('');
       } else {
+        // Send POST request to save new user data
+        await axios.post('http://localhost:3001/login', { email, password,"profile-image": null });
         setSuccess('Signup successful! You can now log in.');
         setError('');
-        // Reset the form fields
         setEmail('');
         setPassword('');
         setConfirmPassword('');
@@ -42,6 +43,7 @@ const Signup = () => {
       setSuccess('');
     }
   };
+  
 
   return (
     <Container fluid className="login-page">
